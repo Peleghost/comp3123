@@ -1,7 +1,6 @@
 const http = require("http");
 const Students = require("./modules/student");
 
-const { postMessageToThread } = require("worker_threads");
 const SERVER_PORT = 3000;
 const SERVER_HOST = "localhost";
 
